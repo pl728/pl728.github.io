@@ -282,6 +282,19 @@ main {
 .indent3 { padding-left: 6rem; }
 .indent4 { padding-left: 8rem; }
 
+/* Mobile responsive indentation */
+@media (max-width: 768px) {
+    .indent1 { padding-left: 1rem; }
+    .indent2 { padding-left: 2rem; }
+    .indent3 { padding-left: 3rem; }
+    .indent4 { padding-left: 4rem; }
+    
+    .code-content {
+        font-size: 0.75rem;
+        padding: 1.5rem 1rem;
+    }
+}
+
 /* iPhone Mockup - keep for projects section */
 .iphone-mockup {
     position: relative;
